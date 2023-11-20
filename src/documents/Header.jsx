@@ -9,6 +9,7 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [value, setValue] = useState(0); // Initialize value state
@@ -39,6 +40,7 @@ const Header = () => {
     <React.Fragment>
       <AppBar sx={{ background: "#063970" }}>
         <Toolbar>
+          <img src="/logo192.png" alt="" width="50px" />
           {isMatch ? (
             <Typography sx={{ fontSize: "2rem", paddingLeft: "10%" }}>
               Shoppee
@@ -57,12 +59,16 @@ const Header = () => {
                 <Tab label="About Us" />
                 <Tab label="Contact" />
               </Tabs>
-              <Button sx={{ marginLeft: "auto" }} variant="contained">
-                Login
-              </Button>
-              <Button sx={{ marginLeft: "10px" }} variant="contained">
-                SignUp
-              </Button>
+              <Link to="/login">
+                <Button sx={{ marginLeft: "auto" }} variant="contained">
+                  Login
+                </Button>
+              </Link>
+              <Link to="/signup">
+                <Button sx={{ marginLeft: "10px" }} variant="contained">
+                  SignUp
+                </Button>
+              </Link>
             </>
           )}
         </Toolbar>
@@ -71,7 +77,7 @@ const Header = () => {
         /* Render content based on the selected page */
         <div style={{ padding: "20px" }}>
           <Typography variant="h4">
-            {Content for ${tabIndexToPage[value]} page}
+            {`Content for ${tabIndexToPage[value]} page`}
           </Typography>
           {/* Add your page-specific content here */}
         </div>
@@ -79,6 +85,4 @@ const Header = () => {
     </React.Fragment>
   );
 };
-
 export default Header;
-Header.jsx

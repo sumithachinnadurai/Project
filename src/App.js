@@ -63,12 +63,32 @@ function App() {
 }*/
 
 //export default App;
-import Header from "./Final/Header";
+// import Header from "./Final/Header";
+// import logo from "./logo.svg";
+// // import "./App.css";
+
+// function App() {
+//   return <Header />;
+// }
+
+// export default App;
+// import Footer from "./Final/Footer";
+/*
+import Header from "./Documents/Header";
+// import Main from "./Final/Main";
 import logo from "./logo.svg";
 // import "./App.css";
 
 function App() {
-  return <Header />;
+  return (
+    <div>
+      <Header />
+      {/* <Main />
+      <Footer /> *///}
+      /*
+    </div>
+  );
 }
 
-export default App;
+export default App;*/
+
