@@ -34,6 +34,7 @@ const Main = () => {
 export default Main;
 */
 import React from "react";
+import { Link } from "react-router-dom";
 const Main = () => {
   const mainStyle = {
     backgroundImage:
@@ -46,9 +47,10 @@ const Main = () => {
   return (
     <div style={mainStyle}>
       <h1 style={{ color: "white" }}>FAV SHOP</h1>
-      <h2 style={{ color: "gold" }}>
+      <Link to="/default">product</Link>
+      <p2 style={{ color: "gold" }}>
         <center>From Heart to Hand: Where Gifts Become Masterpieces</center>
-      </h2>
+      </p2>
       <br></br>
       <h5>
         "Welcome to FavShop, where celebrations come alive <br />
