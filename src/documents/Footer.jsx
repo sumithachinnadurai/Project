@@ -83,7 +83,7 @@ function Footer() {
             <ul>
               <li>How to Shop?</li>
               <li>FAQ about Shopping</li>
-              <li>Search More</li>
+              <li>Search more</li>
             </ul>
           </div>
         </div>

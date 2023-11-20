@@ -10,7 +10,7 @@ const Main = () => {
       </b>
       <br></br>
       <h3 style={{ color: "midnightblue" }}>
-        <center>From Heart to Hand: Where Gifts Become Masterpieces</center>
+        <center>From Heart to Hand: Where Gifts Become masterpieces</center>
       </h3>
       <h3 style={{ color: "midnightblue" }}>
         <center>From Heart to Hand: Where Gifts Become Masterpieces</center>

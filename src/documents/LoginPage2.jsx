@@ -75,7 +75,7 @@ const Header = () => {
       </AppBar>
       {!isMatch && (
         /* Render content based on the selected page */
-        <div style={{ padding: "20px" }}>
+        <div style={{ padding: "10px" }}>
           <Typography variant="h4">
             {`Content for ${tabIndexToPage[value]} page `}
           </Typography>

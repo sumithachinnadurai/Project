@@ -3,6 +3,7 @@ import SignUp2 from "./SignUp2";
 import Loginpage2 from "./Loginpage2";
 import Front from "./Front";
 import Home from "./Home";
+import { JSX } from "react";
 const router = createBrowserRouter([
   { path: "/", element: <Front /> },
   { path: "/signup", element: <SignUp2 /> },

@@ -62,7 +62,7 @@ const Front = () => {
             color="primary"
             fullWidth
             onClick={handleSignUp}
-            style={{ marginTop: "8px" }}
+            style={{ marginTop: "9px" }}
           >
             Sign Up
           </Button>

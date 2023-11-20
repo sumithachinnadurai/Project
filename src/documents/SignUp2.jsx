@@ -101,7 +101,7 @@ const SignUp2 = () => {
             Sign Up
           </Button>
           <Typography sx={{ marginTop: "16px" }}>
-            Already a user ? <Link to="/login">Login</Link>
+            Already A user ? <Link to="/login">Login</Link>
           </Typography>
         </form>
       </Paper>
