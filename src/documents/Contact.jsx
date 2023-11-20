@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   const containerStyle = {
     backgroundImage:
-      "url('https://img.freepik.com/free-photo/polka-dots-paper-bags-with-christmas-gift-boxes-isolated-dark-background_181624-23378.jpg?w=1060&t=st=1700492221~exp=1700492821~hmac=524baab57e1b3ba10eb9027bb45b9c6e668d5205d87488b5caba10c8c2fc226a')", // replace with the actual path to your image
+      "url('https://img.freepik.com/free-photo/empty-blackboard-surrounded-by-shopping-bags_23-2148288236.jpg?w=900&t=st=1700502157~exp=1700502757~hmac=4830d0de770d44a9223171bbc509adc5cac019b0ab7bd77f1beeb8d15d16c7a8')", // replace with the actual path to your image
     backgroundSize: "cover",
     backgroundPosition: "center",
     color: "white",

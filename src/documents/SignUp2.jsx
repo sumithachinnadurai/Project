@@ -144,7 +144,7 @@ const SignUp2 = () => {
         alignItems: "center",
         height: "100vh",
         backgroundImage:
-          "url('https://img.freepik.com/free-photo/top-view-gifts-with-string-tags_23-2148370124.jpg?t=st=1700475838~exp=1700476438~hmac=8ac05c000006ebdda29172bba98f21221150b098bdb6c8a2a99c9b7833a2db2d ')", // Replace with your image URL
+          "url('https://img.freepik.com/free-photo/christmas-gifts_144627-39250.jpg?size=626&ext=jpg&ga=GA1.1.1515574406.1700475824&semt=ais          ')", // Replace with your image URL
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

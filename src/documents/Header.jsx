@@ -105,11 +105,11 @@ const Header = () => {
   const theme = useTheme();
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
 
-  const pageToTabIndex = {
-    Products: 0,
+   const pageToTabIndex = {
+     Products: 0,
     Services: 1,
-    AboutUs: 2,
-    ContactUs: 3,
+     AboutUs: 2,
+   ContactUs: 3,
   };
 
   const tabIndexToPage = {
@@ -125,11 +125,11 @@ const Header = () => {
 
   return (
     <React.Fragment>
-      <AppBar sx={{ background: "#F5F5F5" }}>
+      <AppBar sx={{ background: "#F5F5Fzzz" }}>
         <Toolbar>
           <img src="/logo192.png" alt="" width="50px" />
           {isMatch ? (
-            <Typography sx={{ fontSize: "2rem", paddingLeft: "10%" }}>
+            <Typography sx={{ fontSize: "2rem", paddingLeft: "20%" }}>
               FAV SHOP
             </Typography>
           ) : (
@@ -137,7 +137,7 @@ const Header = () => {
               <Tabs
                 sx={{ marginLeft: "auto" }}
                 indicatorColor="secondary"
-                textColor="inherit"
+                textColor="secondary"
                 value={value}
                 onChange={handleChange}
               >
