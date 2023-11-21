@@ -229,7 +229,8 @@ const Main = () => {
 export default Main;
 */
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
+import { Typography } from "@mui/material";
 // import "./Main.css";
 // import Cart from "./Cart";
 const Main = () => {
@@ -366,7 +367,7 @@ const Main = () => {
               onClick={() => handleAddToCart(product.name)}
               className="cart-button"
             >
-              Add to Cart
+              <Typography sx={{ marginTop: "16px" }}>Add to Cart</Typography>
             </button>
           </div>
         ))}
