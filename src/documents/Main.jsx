@@ -213,7 +213,7 @@ const Main = () => {
               className="cart-button"
             >
               Add to Cart
-            </button>
+            </button>\
           </div>
         ))}
       </div>
@@ -229,9 +229,9 @@ const Main = () => {
 export default Main;
 */
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "./Main.css";
-import Cart from "./Cart";
+import { Link } from "react-router-dom"; 
+// import "./Main.css";
+// import Cart from "./Cart";
 const Main = () => {
   const mainStyle = {
     backgroundImage:
@@ -245,35 +245,35 @@ const Main = () => {
   const products = [
     {
       id: 1,
-      name: "Product 1",
+      name: "CHAINS",
       image:
         "https://img.freepik.com/free-photo/display-shiny-luxurious-golden-chain_23-2149635267.jpg?size=626&ext=jpg&ga=GA1.1.1515574406.1700475824&semt=sph",
       price: "$10.00",
     },
     {
       id: 2,
-      name: "Product 2",
+      name: "HOME DECORS",
       image:
         "https://img.freepik.com/free-photo/purple-candy-bar-curtain_140725-9962.jpg?size=626&ext=jpg&ga=GA1.1.1515574406.1700475824&semt=ais",
       price: "$15.00",
     },
     {
       id: 3,
-      name: "Product 3",
+      name: "TOYS",
       image:
         "https://img.freepik.com/free-photo/beautiful-roses-with-cute-teddy-bear_23-2150737317.jpg?size=626&ext=jpg&ga=GA1.1.1515574406.1700475824&semt=ais",
       price: "$15.00",
     },
     {
       id: 4,
-      name: "Product 4",
+      name: "RINGS",
       image:
         "https://img.freepik.com/free-photo/wedding-rings-wedding-celebrations-accessories-decorations_78826-2286.jpg?size=626&ext=jpg&ga=GA1.1.1515574406.1700475824&semt=sph",
       price: "$16.00",
     },
     {
       id: 5,
-      name: "Product 5",
+      name: "DRESS",
       image:
         "https://img.freepik.com/free-photo/portrait-young-beautiful-smiling-female-trendy-summer-pink-dress-sexy-carefree-woman-posing-isolated-white-studio-positive-model-having-fun-indoors-cheerful-happy_158538-21306.jpg?size=626&ext=jpg&ga=GA1.1.1515574406.1700475824&semt=sph",
       price: "$25.00",
