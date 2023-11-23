@@ -22,7 +22,7 @@ import Contact from "./Contact";
 import Services from "./Services";
 import AboutUs from "./AboutUs";
 const router = createBrowserRouter([
-  { path: "/", element: <Front /> },
+  { path: "/", element: <Home/> },
   { path: "/signup", element: <SignUp2 /> },
   { path: "/login", element: <Loginpage2 /> },
   { path: "/home", element: <Home /> },
